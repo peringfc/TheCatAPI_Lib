@@ -13,8 +13,8 @@ Case para teste conhecimentos, onde será realizado procedimento de consulta de 
 graph LR
 A((Usuário)) -- WEB API --> B[Web Service Angular]
 A((Usuário)) -- WEB UI --> B1[API SWAGGER]
-B -- REST API --> C(Api:Desafio)
-B1 -- REST API --> C(Api:Desafio)
+B -- REST API --> C(API:Desafio)
+B1 -- REST API --> C(API:Desafio)
 C --> G{TheCat} --> Z(API:TheCat.com)
 G --> C	
 C --> F[Banco]
