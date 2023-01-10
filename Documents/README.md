@@ -33,8 +33,6 @@ resiliência etc)
 7. Desenvolva um dashboard utilizando Angular 12+ e um framework de front-end da sua
 escolha (Bootstrap, MaterialUI etc. O dashboard deverá:
 
-Corporativo | Interno
-
 a. Exibir a lista de todas as raças de gatos, contendo o nome e a imagem da raça.
 b. Em cada card de raças, exibir as informações dessa raça, conforme o item 3.b.
 c. Incluir um campo de busca que, à partir de uma origem, liste todas as raças
