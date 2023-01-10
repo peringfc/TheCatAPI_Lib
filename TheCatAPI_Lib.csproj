@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Folder Include="Documents\Imagens\" />
+    <Folder Include="Documents\Postman\" />
   </ItemGroup>
 
 </Project>

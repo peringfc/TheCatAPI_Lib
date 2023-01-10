@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "1e5741a0-9bb3-44d0-9232-133d349d2b7b",
+		"name": "TheCatAPiDesfio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3699025"
+	},
+	"item": [
+		{
+			"name": "Processo de criação e Carga de dados do Site TheCATAPI",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/TheCatAPI",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"TheCatAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Breed - Consulta de Raça especifica",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/Breed?p_breed=acur&Format={{Format}}",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"Breed"
+					],
+					"query": [
+						{
+							"key": "p_breed",
+							"value": "acur"
+						},
+						{
+							"key": "Format",
+							"value": "{{Format}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Temperamentos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/List_Raca_Temperament?p_temperament=Intelligent&Format={{Format}}",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"List_Raca_Temperament"
+					],
+					"query": [
+						{
+							"key": "p_temperament",
+							"value": "Intelligent"
+						},
+						{
+							"key": "Format",
+							"value": "{{Format}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listagem de Temperamentos e suas quantidades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/List_Raca_Temperament?Format={{Format}}",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"List_Raca_Temperament"
+					],
+					"query": [
+						{
+							"key": "Format",
+							"value": "{{Format}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listagem de Raças",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/List_Racas?Format={{Format}}",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"List_Racas"
+					],
+					"query": [
+						{
+							"key": "Format",
+							"value": "{{Format}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listagem por Origem",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/ListOrigin?p_origin=EG&Format={{Format}}",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ListOrigin"
+					],
+					"query": [
+						{
+							"key": "p_origin",
+							"value": "EG"
+						},
+						{
+							"key": "Format",
+							"value": "{{Format}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listagem de Origem e Quantidade de Raca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{hostname}}:{{port}}/ListOrigin?Format={{Format}}",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{hostname}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"ListOrigin"
+					],
+					"query": [
+						{
+							"key": "Format",
+							"value": "{{Format}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
