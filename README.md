@@ -19,3 +19,18 @@ C --> G{TheCat} --> Z(API:TheCat.com)
 G --> C	
 C --> F[Banco]
 ```
+
+
+
+
+|Configurações| Links |
+|--|--|
+| **API**  | [Git Fontes](https://github.com/peringfc/TheCatAPI)  |
+| **DLL**  | [Git Fontes](https://github.com/peringfc/TheCatAPI_Lib)  |
+|**Angular** | [Git Fontes](https://github.com/peringfc/TheCatAPIAngular)  |
+| Print **Angular**  | [Git Fontes](https://github.com/peringfc/TheCatAPI_Lib/blob/master/Documents/Imagens/angular_01.png)  |
+| **Documentação** | [Git Fontes](https://github.com/peringfc/TheCatAPI_Lib/tree/master/Documents)  |
+|**Printers de Telas** | [Git Printers](https://github.com/peringfc/TheCatAPI_Lib/tree/master/Documents/Imagens)  |
+| Print **API**  | [Git Fontes](https://github.com/peringfc/TheCatAPI_Lib/blob/master/Documents/Imagens/API_003_json.png)  |
+| **PostMan**  | [Git Fontes](https://github.com/peringfc/TheCatAPI_Lib/tree/master/Documents/Postman)  |
+| **Docker Compose  Ambiente** | [Git Fontes](https://github.com/peringfc/TheCatAPI_Lib/blob/master/Documents/DockerComposer.md)  |
