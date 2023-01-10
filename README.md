@@ -7,3 +7,15 @@ Case para teste conhecimentos, onde será realizado procedimento de consulta de 
  - Banco de dados em PostgreSQL em Docker.
  - Recurso de visual de dados estaremos utilizando Pgadmin.
 
+## Fluxo de Funcionamento
+
+```mermaid
+graph LR
+A((Usuário)) -- WEB API --> B[Web Service Angular]
+A((Usuário)) -- WEB UI --> B1[API SWAGGER]
+B -- REST API --> C(Api:Desafio)
+B1 -- REST API --> C(Api:Desafio)
+C --> G{TheCat} --> Z(API:TheCat.com)
+G --> C	
+C --> F[Banco]
+```
