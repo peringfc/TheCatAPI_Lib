@@ -31,7 +31,7 @@ B --> D(Database Postgres)
 ### TheCatAPI
 | API | Metodo | url | Baseline | Docke MEM | Docker CPU | TPS | Threshold  | 
 |--|--|--|--|--|--|--|--|
-| TheCatAPI | Breed  | {servidor}:{port}/Breed | 1g| 250mcore  | 100 tps  | 10% |  |
+| TheCatAPI | Breed  | {servidor}:{port}/Breed | 100 Tps | 1 GB. | 250m cores  | 100 tps  | 10% |  
 
 Consulta de Ração informações sobre a raça pesquisa em em questão resultado pode ser obtido tanto em JSON ou XML
 
