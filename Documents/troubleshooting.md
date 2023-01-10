@@ -35,3 +35,33 @@
    - SELECT * FROM cat where id in (select id from cat_temperament where upper(id_temperament) = 'INTELLIGENT' ) order by name_cat 
    - SELECT * FROM cat where (upper(origin) = upper('Egypt') or upper(country_code) = upper('EGPYPT')) 
    - select origin, count(1) total from cat group by origin order by 1
+
+   
+**o processo de configuração dever ser realizado no arquivo** 
+
+
+> **appsettings.json**
+Este arquivo conta os dados pra acesso ao banco de dados caso deseje alterar você deverá ajustar os parâmetros a seguir de acordo com sua necessariedade
+
+```
+
+  "ConnectionStrings": {
+    "MYSQL_DBHOST": "localhost",
+    "MYSQL_DBPORT": "5432",
+    "MYSQL_PASSWORD": "changeme",
+    "MYSQL_USER": "postgres",
+    "MYSQL_DATABASE": "postgres"
+  },
+  "ConnectionStringsMySqlLocal": {
+    "DefaultConnection": "Server=localhost;DataBase=postgres;Uid=postgres;Pwd=changeme"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
+```
